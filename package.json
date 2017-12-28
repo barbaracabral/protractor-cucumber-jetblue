@@ -1,0 +1,34 @@
+{
+  "name": "protractor-example-jetblue",
+  "version": "1.0.0",
+  "keywords": [
+    "cucumber",
+    "protractor",
+    "e2e"
+  ],
+  "description": "Aplicação de Testes Automatizados para testes e2e utilizando utilizando Protractor e Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor cucumber.conf.js",
+    "webdriver-start": "webdriver-manager start",
+    "webdriver-update": "webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/barbaracabral/protractor-example-jetblue.git"
+  },
+  "author": "Bárbara Cabral",
+  "bugs": {
+    "url": "https://github.com/barbaracabral/protractor-example-jetblue/issues"
+  },
+  "homepage": "https://barbaracabral.wordpress.com/",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^2.0.3",
+    "protractor": "^5.2.0",
+    "protractor-cucumber-framework": "^4.1.1",
+    "protractor-cucumber-steps": "^1.2.0"
+  }
+}

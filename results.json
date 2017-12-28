@@ -1,0 +1,134 @@
+[
+  {
+    "description": "    As a user of receivable module\n    I would like to access the revenue tab\n    In order to see the details of the revenues",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Transactions related to revenues",
+    "tags": [],
+    "uri": "/home/barbara/src/protractor-example-jetblue/features/access_revenues.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Access the revenue tab",
+        "tags": [],
+        "id": "transactions-related-to-revenues;access-the-revenue-tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to receivable module",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the revenue tab",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see the list of the revenues",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ]
+      }
+    ],
+    "id": "transactions-related-to-revenues"
+  },
+  {
+    "description": "    As a user of JetBlue site\n    I would like to find flights\n    In order to reserve a flight when I found it",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Finding Flights in JetBlue site",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@find_flights"
+      }
+    ],
+    "uri": "/home/barbara/src/protractor-example-jetblue/features/find_flights.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Access the JetBlue page and find a flight",
+        "tags": [
+          {
+            "line": 2,
+            "name": "@find_flights"
+          }
+        ],
+        "id": "finding-flights-in-jetblue-site;access-the-jetblue-page-and-find-a-flight",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to JetBlue index page",
+            "result": {
+              "status": "undefined"
+            },
+            "isBackground": true,
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the \"Florianópolis\" where my flight will depart",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the \"02/01/2018\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the \"São Paulo\" where I will flight",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the \"28/01/2018\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see the list of the flights related to the search",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          }
+        ]
+      }
+    ],
+    "id": "finding-flights-in-jetblue-site"
+  }
+]
